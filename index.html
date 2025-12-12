@@ -2,22 +2,69 @@
 <!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Leaflet test – Karta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Karta – Andra världskrigets platser i Sörmland</title>
+
   https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
   <style>
     html, body { height: 100%; margin: 0; }
     #map { height: 100vh; }
+    .error {
+      position: absolute; top: 8px; left: 8px;
+      background: #fff3cd; color: #7c6220; border: 1px solid #ffeeba;
+      padding: 6px 10px; border-radius: 4px; font-size: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0,.08);
+    }
   </style>
 </head>
 <body>
-  <div id="map"></div>
+  <div id="map" role="region" aria-label="Interaktiv karta"></div>
+  <div id="err" class="error" style="display:none"></div>
+
   https://unpkg.com/leaflet@1.9.4/dist/leaflet.js</script>
   <script>
-    const map = L.map('map').setView([59.0956, 16.2186], 9);
+    const map = L.map('map');
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap-bidragsgivare'
-       }).addTo(map);
+    }).addTo(map);
+
+    fetch('./Kartdata.geojson')   // exakt filnamn
+      .then(r => {
+        if (!r.ok) throw new Error('Kunde inte läsa Kartdata.geojson (HTTP ' + r.status + ')');
+        return r.json();
+      })
+      .then(geojson => {
+        const layer = L.geoJSON(geojson, {
+          onEachFeature: (feature, lyr) => {
+            const p = feature.properties || {};
+            const namn = p.name || p.Namn || p.title || 'Okänd plats';
+            const beskrivning = p.description || p.Beskrivning || '';
+            const årtal = p.year || p.År || '';
+            lyr.bindPopup(`
+              <strong>${namn}</strong><br/>
+              ${årtal ? `<em>${årtal}</em><br/>` : ''}
+              ${beskrivning ? `${beskrivning}` : ''}
+            `);
+          },
+          style: () => ({ color: '#2c3e50', weight: 2, fillColor: '#3498db', fillOpacity: 0.25 }),
+          pointToLayer: (feature, latlng) => L.marker(latlng)
+        }).addTo(map);
+
+        const bounds = layer.getBounds();
+        if (bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [20, 20] });
+        } else {
+          map.setView([59.0956, 16.2186], 9);
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        const box = document.getElementById('err');
+        box.textContent = 'Fel: ' + err.message + ' – Kontrollera att filen heter exakt "Kartdata.geojson" och ligger bredvid index.html i den publicerade mappen.';
+        box.style.display = 'block';
+        map.setView([59.0956, 16.2186], 9);
+      });
   </script>
 </body>
+</
