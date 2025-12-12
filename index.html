@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Karta – Andra världskrigets platser i Sörmland</title>
 
-  <!-- Leaflet CSS -->
+  <!-- Rätt sätt att referera till Leaflet CSS: via <link>, inte som ren text -->
   https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 
   <style>
@@ -27,48 +27,44 @@
   <div id="err" class="error" style="display:none"></div>
 
   <!-- Leaflet JS -->
-  https://unpkg.com/leaflet@1.9.4/dist/leaflet.js</script>
+  <script
+    src="/leaflet@1.9.4/dist/leaflet.js</script>
 
   <script>
-    // 1) Skapa bas-karta med OpenStreetMap-tiles
     const map = L.map('map');
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap-bidragsgivare'
     }).addTo(map);
 
-    // 2) Läs in GeoJSON från exakt filnamn "Kartdata.geojson"
+    // Läs in din fil med exakt filnamn
     fetch('Kartdata.geojson')
       .then(r => {
         if (!r.ok) throw new Error('Kunde inte läsa Kartdata.geojson (' + r.status + ')');
         return r.json();
       })
       .then(geojson => {
-        // 3) Lägg till GeoJSON-lager och popup:er
         const layer = L.geoJSON(geojson, {
           onEachFeature: (feature, lyr) => {
             const p = feature.properties || {};
-            // Justera fältnamn här om du vill:
             const namn = p.name || p.Namn || p.title || 'Okänd plats';
             const beskrivning = p.description || p.Beskrivning || '';
             const årtal = p.year || p.År || '';
-            const html = `
+            lyr.bindPopup(`
               <div class="popup">
                 <div class="popup-title">${namn}</div>
                 ${årtal ? `<p class="popup-body"><em>${årtal}</em></p>` : ''}
                 ${beskrivning ? `<p class="popup-body">${beskrivning}</p>` : ''}
-              </div>`;
-            lyr.bindPopup(html);
+              </div>
+            `);
           },
           style: () => ({ color: '#2c3e50', weight: 2, fillColor: '#3498db', fillOpacity: 0.25 }),
           pointToLayer: (feature, latlng) => L.marker(latlng)
         }).addTo(map);
 
-        // 4) Zooma till lagrets utbredning
         const bounds = layer.getBounds();
         if (bounds.isValid()) {
           map.fitBounds(bounds, { padding: [20, 20] });
         } else {
-          // Fallback: centrera över Sörmland
           map.setView([59.0956, 16.2186], 9);
         }
       })
@@ -81,4 +77,5 @@
       });
   </script>
 </body>
-</html>
+</
+
