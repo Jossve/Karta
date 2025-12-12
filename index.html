@@ -2,10 +2,13 @@
 <!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leaflet test</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leaflet supertest</title>
+
+  <!-- Leaflet CSS -->
   https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+
   <style>
     html, body { height: 100%; margin: 0; }
     #map { height: 100vh; }
@@ -14,11 +17,15 @@
 <body>
   <div id="map"></div>
 
+  <!-- Leaflet JS -->
   https://unpkg.com/leaflet@1.9.4/dist/leaflet.js</script>
   <script>
+    // Skapa karta och sätt en startvy
     const map = L.map('map').setView([59.0956, 16.2186], 9);
+
+       // Lägg till OSM-tiles (måste vara HTTPS, vilket det är)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-           attribution: '© OpenStreetMap-bidragsgivare'
+      attribution: '© OpenStreetMap-bidragsgivare'
     }).addTo(map);
   </script>
 </body>
