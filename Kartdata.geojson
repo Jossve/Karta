@@ -12,7 +12,7 @@
       },
       "properties": {
         "name": "Askö gruva",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/asko-gruvor/|Askö gruvor – Järnmalm till Nazityskland]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/asko-gruvor/\" target=\"_blank\" rel=\"noopener noreferrer\">Askö gruvor – Järnmalm till Nazityskland</a>"
       },
       "id": "ZYeJ4"
     },
@@ -26,7 +26,7 @@
         "type": "Point"
       },
       "properties": {
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/bjornkallan/|Björnkällan – Arbetsläger i skogen]]",
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/bjornkallan/\" target=\"_blank\" rel=\"noopener noreferrer\">Björnkällan – Arbetsläger i skogen</a>",
         "name": "Björnkällan"
       },
       "id": "eY3ka"
@@ -42,7 +42,7 @@
       },
       "properties": {
         "name": "Byringe",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/josefine-test/|Byringe – Interneringsläger för sovjetiska soldater]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/josefine-test/\" target=\"_blank\" rel=\"noopener noreferrer\">Byringe – Interneringsläger för sovjetiska soldater</a>"
       },
       "id": "DG6q4"
     },
@@ -57,7 +57,7 @@
       },
       "properties": {
         "name": "Carl Gustafs stads gevärsfaktori",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/carl-gustafs-stads-gevarsfaktori/|Carl Gustafs stads gevärsfaktori – Krigsindustri i Eskilstuna]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/carl-gustafs-stads-gevarsfaktori/\" target=\"_blank\" rel=\"noopener noreferrer\">Carl Gustafs stads gevärsfaktori – Krigsindustri i Eskilstuna</a>"
       },
       "id": "Kvrgi"
     },
@@ -72,7 +72,7 @@
       },
       "properties": {
         "name": "Eckersta",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/eckersta-udde-1944-1946/|Eckersta udde – Norskt läger & senare flyktingförläggning]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/eckersta-udde-1944-1946/\" target=\"_blank\" rel=\"noopener noreferrer\">Eckersta udde – Norskt läger & senare flyktingförläggning</a>"
       },
       "id": "zRwWo"
     },
@@ -87,7 +87,7 @@
       },
       "properties": {
         "name": "Katrineholms järnvägsstation",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/katrineholms-station/|Katrineholms station – Måltidsstation för militären]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/katrineholms-station/\" target=\"_blank\" rel=\"noopener noreferrer\">Katrineholms station – Måltidsstation för militären</a>"
       },
       "id": "v3Xfn"
     },
@@ -102,7 +102,7 @@
       },
       "properties": {
         "name": "Kjesäter",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/kjersater-slott-1942-1945/|Kjesäter slott – Norsk mottagningscentral & senare flyktingläger]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/kjersater-slott-1942-1945/\" target=\"_blank\" rel=\"noopener noreferrer\">Kjesäter slott – Norsk mottagningscentral & senare flyktingförläggning</a>"
       },
       "id": "E5f8x"
     },
@@ -117,7 +117,7 @@
       },
       "properties": {
         "name": "Läggestaviken",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/laggestaviken/|Läggestaviken – Polskt interneringsläger]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/laggestaviken/\" target=\"_blank\" rel=\"noopener noreferrer\">Läggestaviken – Polskt interneringsläger</a>"
       },
       "id": "BdSLr"
     },
@@ -132,7 +132,7 @@
       },
       "properties": {
         "name": "Mälsåker",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/malsaker-slott/|Mälsåker slott – Hemlig norsk armé]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/malsaker-slott/\" target=\"_blank\" rel=\"noopener noreferrer\">Mälsåker slott – Hemlig norsk armé</a>"
       },
       "id": "lS5tN"
     },
@@ -146,7 +146,7 @@
         "type": "Point"
       },
       "properties": {
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/oxelosunds-hamn/|Oxelösunds hamn – Malmexport & brittiska sabotageplaner]]",
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/oxelosunds-hamn/\" target=\"_blank\" rel=\"noopener noreferrer\">Oxelösunds hamn – Malmexport & brittiska sabotageplaner</a>",
         "name": "Oxelösunds hamn"
       },
       "id": "HiNOH"
@@ -162,7 +162,7 @@
       },
       "properties": {
         "name": "Prins Wilhelms barnhem",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/prins-wilhelms-barnhem/|Prins Wilhelms barnhem – Finska krigsbarn i Flen]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/prins-wilhelms-barnhem/\" target=\"_blank\" rel=\"noopener noreferrer\">Prins Wilhelms barnhem – Finska krigsbarn i Flen</a>"
       },
       "id": "MUqe1"
     },
@@ -177,7 +177,7 @@
       },
       "properties": {
         "name": "Rosöga",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/rosoga/|Rosöga – Flyktingförläggning för överlevande]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/rosoga/\" target=\"_blank\" rel=\"noopener noreferrer\">Rosöga – Flyktingförläggning för överlevande</a>"
       },
       "id": "Q9nQl"
     },
@@ -192,7 +192,7 @@
       },
       "properties": {
         "name": "Rönnebo pensionat",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/tusenarsfabriken-i-arnaberget/|Tusenårsfabriken i Ärnaberget – Hemlig försvarsproduktion]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/tusenarsfabriken-i-arnaberget/\" target=\"_blank\" rel=\"noopener noreferrer\">Tusenårsfabriken i Ärnaberget – Hemlig försvarsproduktion</a>"
       },
       "id": "FbZuK"
     },
@@ -207,7 +207,7 @@
       },
       "properties": {
         "name": "Skavsta F11",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/sodermanlands-flygflottilj-f-11/|Södermanlands flygflottilj F 11 – Spaningsflyg i krigstid]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrikets-platser-i-Sormland/sodermanlands-flygflottilj-f-11/\" target=\"_blank\" rel=\"noopener noreferrer\">Södermanlands flygflottilj F 11 – Spaningsflyg i krigstid</a>"
       },
       "id": "bLlpx"
     },
@@ -221,7 +221,7 @@
         "type": "Point"
       },
       "properties": {
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/strangnas-garnison/|Strängnäs – Garnison, beredskap & bombanfall]]",
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/strangnas-garnison/\" target=\"_blank\" rel=\"noopener noreferrer\">Strängnäs – Garnison, beredskap & bombanfall</a>",
         "name": "Strängnäs garnison"
       },
       "id": "9u0LZ"
@@ -237,7 +237,7 @@
       },
       "properties": {
         "name": "Yxtaholms slott",
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/yxtaholms-slott/|Yxtaholms slott – Internering av tysk legationspersonal]]"
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/yxtaholms-slott/\" target=\"_blank\" rel=\"noopener noreferrer\">Yxtaholms slott – Internering av tysk legationspersonal</a>"
       },
       "id": "Zx8Fq"
     },
@@ -251,7 +251,7 @@
         "type": "Point"
       },
       "properties": {
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/akers-krutbruk/|Åkers krutbruk – Del av svensk försvarsindustri]]",
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/akers-krutbruk/\" target=\"_blank\" rel=\"noopener noreferrer\">Åkers krutbruk – Del av svensk försvarsindustri</a>",
         "name": "Åkers krutbruk"
       },
       "id": "h9BQi"
@@ -266,7 +266,7 @@
         "type": "Point"
       },
       "properties": {
-        "description": "[[https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/tusenarsfabriken-i-arnaberget/|Tusenårsfabriken i Ärnaberget – Hemlig försvarsproduktion]]",
+        "description": "<a href=\"https://sormlandsmuseum.se/utforska/krig/Andra-varldskrigets-platser-i-Sormland/tusenarsfabriken-i-arnaberget/\" target=\"_blank\" rel=\"noopener noreferrer\">Tusenårsfabriken i Ärnaberget – Hemlig försvarsproduktion</a>",
         "name": "Ärnaberget"
       },
       "id": "kqlCV"
